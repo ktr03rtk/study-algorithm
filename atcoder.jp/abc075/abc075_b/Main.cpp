@@ -11,7 +11,7 @@ int main() {
 
   vector<string> S(H);
   for (auto &s : S) cin >> s;
-
+  // マス移動
   vector<int> dx = {1, 1, 0, -1, -1, -1, 0, 1};
   vector<int> dy = {0, -1, -1, -1, 0, 1, 1, 1};
   int n = dx.size();

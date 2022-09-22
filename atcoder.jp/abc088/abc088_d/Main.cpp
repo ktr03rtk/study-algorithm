@@ -10,6 +10,7 @@ vector<ll> a, b, c, d;
 
 // 幅優先探索
 int main() {
+  // マス移動
   vector<int> DX = {1, 0, -1, 0};
   vector<int> DY = {0, 1, 0, -1};
 
