@@ -16,6 +16,7 @@ void func(ll cur, int use, ll &counter) {
   func(cur * 10 + 3, use | 0b100, counter);
 }
 
+// 再帰
 int main() {
   cin >> N;
 

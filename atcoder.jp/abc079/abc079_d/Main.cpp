@@ -5,6 +5,7 @@
 using namespace std;
 using ll = long long;
 
+// ワーシャルフロイド法
 int main() {
   int H, W;
   cin >> H >> W;
