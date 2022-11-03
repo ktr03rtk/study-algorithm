@@ -16,6 +16,7 @@ int main() {
     A[i] = a;
     B[i] = a;
   }
+  // vector重複除外
   sort(B.begin(), B.end());
   B.erase(unique(B.begin(), B.end()), B.end());
 
