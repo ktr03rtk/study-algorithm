@@ -10,6 +10,7 @@ ll check(ll x, ll A, ll B) {
   return A * x + B * dx;
 }
 
+// 二分探索
 int main() {
   ll A, B, X;
   cin >> A >> B >> X;
