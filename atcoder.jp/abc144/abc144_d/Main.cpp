@@ -5,6 +5,7 @@
 using namespace std;
 using ll = long long;
 
+// 小数点
 int main() {
   double a, b, x;
   cin >> a >> b >> x;
